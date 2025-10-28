@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple SPA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+nav {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid white;
+}
+
+main {
+  padding: 2rem;
+  margin: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Extra styling */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+</style>
+<body>
+
+  <nav>
+    <h2>My SPA</h2>
+    <ul>
+      <li><a href="#" data-page="home" class="active">Home</a></li>
+      <li><a href="#" data-page="about">About</a></li>
+      <li><a href="#" data-page="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="content"></main>
+
+  <footer>
+    <p>Welcome to My Single Page Application!</p>
+    <P>This is a simple, interactive web page built to demonstrate how all content can exist in a single file without reloading the page.<p></p>
+    <p>Our goal is to create fast, responsive, and user-friendly web experiences</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
