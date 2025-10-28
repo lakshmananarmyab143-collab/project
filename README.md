@@ -29,4 +29,5 @@ Reusable Components: Each section can be updated independently.
 
 Single Page Applications provide an efficient and modern approach to web development. They improve user experience by reducing page reloads and offering fast, seamless navigation. By using front-end technologies like HTML, CSS, and JavaScript, SPAs create lightweight, interactive web apps that resemble native applications. This makes SPAs ideal for today’s responsive and dynamic web environments.
 deployment link:https://lakshmananarmyab143-collab.github.io/project/
-repository link:
+repository link:https://github.com/lakshmananarmyab143-collab/project.git
+developed by  LAKSHMANAN M
